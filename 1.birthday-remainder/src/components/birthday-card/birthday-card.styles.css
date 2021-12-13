@@ -1,0 +1,22 @@
+.birthday-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+
+.birthday-image img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.birthday-info {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

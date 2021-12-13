@@ -1,0 +1,28 @@
+.birthday-list-container {
+    background-color: #fff;
+    width: 40vw;
+    height: auto;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.birthday-list-container h2 {
+    margin-bottom: 1rem;
+}
+
+.birthday-list-container button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #6666ff;
+}
+
+@media screen and (max-width:720px) {
+    .birthday-list-container {
+        width: 90vw;
+    }
+}
